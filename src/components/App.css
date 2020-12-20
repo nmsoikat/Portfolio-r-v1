@@ -1,0 +1,32 @@
+/* ========= Base CSS ========== */
+p,h1,h2,h3 {
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+}
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+body{
+  font-size: 20px;
+}
+
+/* =========== Home Area Styles ========== */
+.home-area-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
